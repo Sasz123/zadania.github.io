@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.gora {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid red;
+}
+
+.gora h3 {
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.gora ul {
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.gora li {
+    margin-right: 35px;
+}
+
+.gora li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.4s linear;
+}
+
+.gora li a:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+.strona{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.zadanie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.poziome ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.poziome li a{
+    color: white;
+    background-color: black;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    transition: all 0.4s linear;
+}
+.poziome li a:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 1px 1px 8px #000000;
+}
+
+
